@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Contador utilizando apenas tags Input</h3>
+    <input type="button" class="btn" onclick="decrementa()" value="-"> 
+    <input type="number" name="result" id="result" value="0" disabled>
+    <input type="button" class="btn" onclick="incrementa()" value="+">
+    <p>-----------------------------------------------------------</p>
+    <h3>Contador utilizando apenas tags Button e Span</h3>
+    <button type="button" class="btn" onclick="decrementa()">-</button>
+    <span id="result2">0</span>
+    <button type="button" class="btn" onclick="incrementa()">+</button>  
+    <script src="script.js"></script>
+</body>
+</html>
